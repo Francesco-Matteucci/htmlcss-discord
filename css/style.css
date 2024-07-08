@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
@@ -9,12 +9,18 @@ body {
     color: #fff;
 }
 
+main {
+    color: black;
+    max-width: 1200px;
+}
+
 /*header*/
 
 header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     padding: 15px;
+    margin-bottom: 60px;
 }
 
 .high-header {
@@ -84,11 +90,15 @@ h1 {
 
 .b-mac {
     margin-right: 50px;
+    font-size: 18px;
+    font-weight: 100;
 }
 
 .b-browser {
     color: #fff;
     background-color: #23272a;
+    font-size: 18px;
+    font-weight: 100;
 }
 
 /*utils*/
@@ -107,12 +117,11 @@ h1 {
 
 .high-header,
 .a-foot {
-    max-width: 900px;
+    max-width: 1200px;
 }
 
 .lightblue-box,
 .pink-box,
-.tech,
 .sm-b,
 .your-place {
     height: 400px;
@@ -120,19 +129,21 @@ h1 {
 
 .lightblue-box {
     flex-basis: 550px;
-    background-color: lightblue;
 
 }
 
 .pink-box {
     flex-basis: 350px;
-    background-color: pink;
+    padding-top: 40px;
+}
 
+h2 {
+    font-size: 3em;
 }
 
 .description,
 .tecnology {
-    background-color: lightgray;
+    background-color: #F6F6F6;
 }
 
 .line {
@@ -141,13 +152,40 @@ h1 {
 
 /*main*/
 
+.info,
+.description,
+.community,
+.tecnology {
+    padding-bottom: 150px;
+}
+
+.info {
+    gap: 80px;
+}
+
 .inverted {
     order: 1;
 }
 
+.tecnology>* {
+    text-align: center;
+}
+
 .tech {
-    flex-basis: 900px;
-    background-color: green;
+    width: 900px;
+}
+
+.tecnology {
+    text-align: center;
+}
+
+
+.pink-box>* {
+    text-align: right;
+}
+
+.item2 {
+    text-align: left;
 }
 
 /*footer*/
@@ -180,6 +218,11 @@ footer {
     height: 50px;
     background-color: palevioletred;
     text-align: center;
-    vertical-align: 50px;
     line-height: 50px;
+}
+
+.pink-box>p,
+.tecnology>p {
+    font-size: 20px;
+    margin-top: 20px;
 }
