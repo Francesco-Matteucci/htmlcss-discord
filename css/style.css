@@ -115,8 +115,7 @@ h1 {
     justify-content: center;
 }
 
-.high-header,
-.a-foot {
+.high-header {
     max-width: 1200px;
 }
 
@@ -141,13 +140,25 @@ h2 {
     font-size: 3em;
 }
 
+h3 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 1.7em;
+    margin-bottom: 15px;
+    color: #7289DA
+}
+
 .description,
 .tecnology {
     background-color: #F6F6F6;
 }
 
 .line {
-    border: 1px solid white;
+    border: 1px solid #3E4968;
+    max-width: 1200px;
 }
 
 /*main*/
@@ -192,37 +203,64 @@ h2 {
 
 footer {
     background-color: #23272A;
+
+}
+
+.t-foot {
+    padding: 100px;
+}
+
+.ita {
+    height: 20px;
+}
+
+.flag {
+    margin-bottom: 30px;
 }
 
 .your-place {
-    background-color: pink;
     flex-basis: 300px;
 }
 
 .sm-b {
-    background-color: lightblue;
     flex-basis: 150px;
 }
 
 .a-foot {
-    margin: 15px auto;
-    height: 100px;
-    background-color: #7FFFD4;
+    display: flex;
+    align-items: flex-start;
     justify-content: space-between;
-    align-items: center;
-}
-
-.last-logo,
-.button {
-    flex-basis: 100px;
-    height: 50px;
-    background-color: palevioletred;
-    text-align: center;
-    line-height: 50px;
+    max-width: 1200px;
+    padding-top: 20px;
+    min-height: 200px;
 }
 
 .pink-box>p,
 .tecnology>p {
     font-size: 20px;
     margin-top: 20px;
+}
+
+.footer-title {
+    color: #7289DA;
+}
+
+i {
+    margin-right: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.last-logo {
+    margin: 0;
+}
+
+.singup {
+    margin: 0;
 }
