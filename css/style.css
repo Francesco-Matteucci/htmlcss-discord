@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
 /*header*/
 
 header {
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     padding: 15px;
 }
 
@@ -15,8 +21,82 @@ header {
     margin: 0 auto;
 }
 
-.high-header>div {
-    background-color: orange;
+.link-sub {
+    padding-right: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-button {
+    color: #23272a;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 7px 16px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    border: 0;
+    cursor: pointer;
+}
+
+.link :last-child {
+    padding-right: 0;
+}
+
+.logo,
+.login {
+    flex-basis: 200px;
+
+}
+
+.login {
+    text-align: right;
+}
+
+
+.link {
+    flex-basis: 500px;
+    padding: 5px;
+    text-align: center;
+}
+
+.low-header>div {
+
+    flex-basis: 700px;
+    height: 300px;
+}
+
+.low-header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+
+.p-header {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.b-mac {
+    margin-right: 50px;
+}
+
+.b-browser {
+    color: #fff;
+    background-color: #23272a;
+}
+
+/*utils*/
+
+[title] {
+
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .d-flex {
@@ -24,43 +104,6 @@ header {
     align-items: flex-start;
     justify-content: center;
 }
-
-
-.logo,
-.login {
-    flex-basis: 200px;
-    padding: 5px;
-
-}
-
-.link {
-    text-align: center;
-}
-
-.login {
-    text-align: right;
-}
-
-[title] {
-    border: 1px dashed black;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.link {
-    flex-basis: 500px;
-    padding: 5px;
-}
-
-.low-header>div {
-    background-color: #EE82EE;
-    flex-basis: 700px;
-    height: 300px;
-}
-
-
-
-/*utils*/
 
 .high-header,
 .a-foot {
