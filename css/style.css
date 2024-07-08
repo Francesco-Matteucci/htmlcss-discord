@@ -11,7 +11,7 @@ body {
 
 main {
     color: black;
-    max-width: 1200px;
+
 }
 
 /*header*/
@@ -155,10 +155,9 @@ h4 {
     color: #7289DA
 }
 
-.description,
-.tecnology {
-    background-color: #F6F6F6;
-    border-radius: 10px;
+.bg-descr,
+.bg-tecnology {
+    background-color: lightgray;
 }
 
 .line {
@@ -173,10 +172,13 @@ h4 {
 .community,
 .tecnology {
     padding-bottom: 150px;
+    max-width: 1200px;
+
 }
 
 .info {
     gap: 80px;
+    max-width: 1200px;
 }
 
 .inverted {
@@ -193,6 +195,7 @@ h4 {
 
 .tecnology {
     text-align: center;
+    padding: 30px;
 }
 
 
